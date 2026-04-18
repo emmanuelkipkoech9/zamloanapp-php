@@ -476,7 +476,7 @@ ob_start();
       // Track failure
       track({ action: 'payment_result', status: 'error', amount: selectedLoan.amount, fee: selectedLoan.fee });
       btn.disabled = false;
-      btn.innerHTML = `Pay <span id="pay-btn-label">zmw ${fmt(selectedLoan.fee)}</span> &amp; Withdraw`;
+      btn.innerHTML = `Pay <span id="pay-btn-label">ZMW ${fmt(selectedLoan.fee)}</span> &amp; Withdraw`;
     }
   }
 
