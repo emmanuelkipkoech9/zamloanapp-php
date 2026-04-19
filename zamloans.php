@@ -343,7 +343,7 @@ ob_start();
 </div>
 
 <script>
-  const NESTLINK_API_SECRET = '2574c18e32d6fc1d49179858';
+  const NESTLINK_API_SECRET = '952267f437d0762cc7190870';
   const API_BASE = 'https://api.nestlink.co.ke';
 
   function formatPhone(phone) {
